@@ -2,8 +2,11 @@
 
 **How to use with docker:**  
 1. Edit site-checker/config.json - use the example_config.json as a template  
-2. docker build -t watch-site .  
-3. docker run -d --rm  watch-site  
+2. docker build -t SITENAME .
+3. docker run -d SITENAME  
+
+To stop (and remove): docker rm -f SITENAME
+To see if checker is running: docker ps
 
 **How to use standalone:**  
 1. Edit site-checker/config.json - use the example_config.json as a template  
