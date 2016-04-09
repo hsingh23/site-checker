@@ -1,18 +1,18 @@
-This is a simple website watcher app that texts you when the website changes.
+**This is a simple website watcher app that texts you when the website changes.**
 
-How to use with docker:
-1. Edit site-checker/config.json - use the example_config.json as a template
-2. docker build -t watch-site .
-3. docker run -d --rm  watch-site
+**How to use with docker:**  
+1. Edit site-checker/config.json - use the example_config.json as a template  
+2. docker build -t watch-site .  
+3. docker run -d --rm  watch-site  
 
-How to use standalone:
-1. Edit site-checker/config.json - use the example_config.json as a template
-2. cd site-checker; nohup python monitor_site.py
-3. press ctrl-z
-4. exit
+**How to use standalone:**  
+1. Edit site-checker/config.json - use the example_config.json as a template  
+2. cd site-checker; nohup python monitor_site.py  
+3. press ctrl-z  
+4. exit  
 
 
-Additional details:
+**Additional details:**
 
 It only looks at html - doesn't take screenshots or evaluate js. 
 
