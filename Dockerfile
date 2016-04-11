@@ -1,5 +1,4 @@
-# FROM python:3-alpine
-FROM python
+FROM python:3-alpine
 MAINTAINER hsingh23@illinois.edu
 RUN pip install twilio requests
 ADD site-checker .
